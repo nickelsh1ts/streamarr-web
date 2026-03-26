@@ -6,21 +6,45 @@
     "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "export": "next export",
+    "lint": "eslint",
+    "format": "prettier 'app/**/*.{css,js,ts,tsx}' --log-level warn --write --cache ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nickelsh1ts/streamarr-web.git"
+  },
+  "author": "Nicholas Wege",
+  "license": "MIT",
+  "packageManager": "pnpm@10.33.0",
   "dependencies": {
+    "@heroicons/react": "^2.2.0",
     "next": "16.2.1",
     "react": "19.2.4",
     "react-dom": "19.2.4"
   },
   "devDependencies": {
-    "@tailwindcss/postcss": "^4",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "eslint": "^9",
+    "@dreamsicle.io/stylelint-config-tailwindcss": "^1.2.2",
+    "@tailwindcss/aspect-ratio": "^0.4.2",
+    "@tailwindcss/forms": "^0.5.11",
+    "@tailwindcss/postcss": "^4.2.2",
+    "@tailwindcss/typography": "^0.5.19",
+    "@types/node": "^20.19.37",
+    "@types/react": "^19.2.14",
+    "@types/react-dom": "^19.2.3",
+    "eslint": "^9.39.4",
     "eslint-config-next": "16.2.1",
-    "tailwindcss": "^4",
-    "typescript": "^5"
+    "eslint-config-prettier": "^10.1.8",
+    "postcss": "^8.5.8",
+    "prettier": "^3.8.1",
+    "prettier-plugin-tailwindcss": "^0.7.2",
+    "stylelint": "^17.5.0",
+    "stylelint-config-standard": "^40.0.0",
+    "tailwindcss": "^4.2.2",
+    "typescript": "^5.9.3"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "trailingComma": "es5"
   }
 }
