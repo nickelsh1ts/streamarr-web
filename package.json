@@ -6,9 +6,10 @@
     "dev": "next dev --webpack",
     "build": "next build",
     "start": "next start",
-    "export": "next export",
-    "lint": "eslint",
-    "format": "prettier 'app/**/*.{css,js,ts,tsx}' --log-level warn --write --cache ."
+    "lint": "eslint *.{ts,tsx} --cache",
+    "format": "prettier {app,public,components,context,hooks}/*.{css,js,ts,tsx} --log-level warn --write --cache",
+    "i18n:extract": "formatjs extract '{app,components}/**/*.{ts,tsx}' --ignore='src/**/*.d.ts' --out-file i18n/locale/en.json --id-interpolation-pattern '[sha512:contenthash:base64:6]'",
+    "css-lint": "stylelint app/*.css public/*.css"
   },
   "repository": {
     "type": "git",
@@ -18,13 +19,16 @@
   "license": "MIT",
   "packageManager": "pnpm@10.33.0",
   "dependencies": {
+    "@headlessui/react": "^2.2.9",
     "@heroicons/react": "^2.2.0",
     "next": "16.2.1",
     "react": "19.2.4",
-    "react-dom": "19.2.4"
+    "react-dom": "19.2.4",
+    "react-intl": "^10.1.0"
   },
   "devDependencies": {
     "@dreamsicle.io/stylelint-config-tailwindcss": "^1.2.2",
+    "@formatjs/cli": "^6.14.1",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.11",
     "@tailwindcss/postcss": "^4.2.2",
@@ -34,7 +38,6 @@
     "@types/react-dom": "^19.2.3",
     "eslint": "^9.39.4",
     "eslint-config-next": "16.2.1",
-    "eslint-config-prettier": "^10.1.8",
     "postcss": "^8.5.8",
     "prettier": "^3.8.1",
     "prettier-plugin-tailwindcss": "^0.7.2",

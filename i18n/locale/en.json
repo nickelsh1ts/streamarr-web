@@ -1,0 +1,266 @@
+{
+  "+moreSoon": {
+    "defaultMessage": "+ more soon"
+  },
+  "activelyDeveloped": {
+    "defaultMessage": "Actively Developed"
+  },
+  "activelyDevelopedDescription": {
+    "defaultMessage": "Streamarr is under active development, with frequent updates and new features based on user feedback."
+  },
+  "activelyEvolving": {
+    "defaultMessage": "Actively evolving for the best experience"
+  },
+  "activelyEvolvingDescription": {
+    "defaultMessage": "Streamarr is actively developed and maintained, with regular updates and new features added all the time. Check out the latest release notes to see what's new."
+  },
+  "addedPlaylistSupport": {
+    "defaultMessage": "Added playlist support for Plex libraries"
+  },
+  "apiDocs": {
+    "defaultMessage": "API Docs"
+  },
+  "arrServiceIntegrations": {
+    "defaultMessage": "*arr service integrations for complete control of your media ecosystem"
+  },
+  "displayLanguage": {
+    "defaultMessage": "Display Language"
+  },
+  "comprehensiveMediaControl": {
+    "defaultMessage": "Comprehensive Media Control"
+  },
+  "comprehensiveMediaControlDescription": {
+    "defaultMessage": "Manage your entire media library, downloads, and user access from one place with powerful tools and integrations."
+  },
+  "contributing": {
+    "defaultMessage": "Contributing"
+  },
+  "customizableOnboarding": {
+    "defaultMessage": "Customizable Onboarding"
+  },
+  "customizableOnboardingDescription": {
+    "defaultMessage": "User onboarding wizard and tutorials for easy setup."
+  },
+  "customizableUserOnboarding": {
+    "defaultMessage": "Customizable user onboarding wizard and tutorials"
+  },
+  "discussions": {
+    "defaultMessage": "Discussions"
+  },
+  "dockerPulls": {
+    "defaultMessage": "Docker Pulls"
+  },
+  "documentation": {
+    "defaultMessage": "Documentation"
+  },
+  "downloadManagement": {
+    "defaultMessage": "Download management for qBittorrent, Deluge, and Transmission"
+  },
+  "everythingYouNeedInOnePlace": {
+    "defaultMessage": "Everything you need in one place"
+  },
+  "everythingYouNeedInOnePlaceDescription": {
+    "defaultMessage": "No more juggling between different apps and interfaces. Streamarr brings everything together for a seamless media management experience."
+  },
+  "everythingYouNeedInOnePlaceSubtitle": {
+    "defaultMessage": "Streamarr provides a unified interface to manage your media library, stream content, and integrate with your Plex and *arr services, all in one place."
+  },
+  "exploreFeatures": {
+    "defaultMessage": "Explore the powerful features that make Streamarr the ultimate media management solution:"
+  },
+  "extensiveInviteSystem": {
+    "defaultMessage": "Extensive invite system with customizable permissions and access levels"
+  },
+  "faqs": {
+    "defaultMessage": "Frequently Asked Questions"
+  },
+  "featureRichControl": {
+    "defaultMessage": "Feature Rich Control"
+  },
+  "features": {
+    "defaultMessage": "Features"
+  },
+  "featuresArrServiceIntegrations": {
+    "defaultMessage": "*arr Service Integrations"
+  },
+  "featuresArrServiceIntegrationsDescription": {
+    "defaultMessage": "Integrates with Radarr, Sonarr, Lidarr, Seerr, Prowlarr, Bazarr, Tdarr, and Tautulli."
+  },
+  "featuresExtensiveInviteSystem": {
+    "defaultMessage": "Extensive Invite System"
+  },
+  "featuresExtensiveInviteSystemDescription": {
+    "defaultMessage": "Invite users with customizable permissions and access levels."
+  },
+  "featuresIntegratedPlexUserManagement": {
+    "defaultMessage": "Integrated Plex User Management"
+  },
+  "featuresIntegratedPlexUserManagementDescription": {
+    "defaultMessage": "Manage Plex users and library access directly from Streamarr."
+  },
+  "featuresMostPlexLibraryTypes": {
+    "defaultMessage": "Supports Most Plex Library Types"
+  },
+  "featuresMostPlexLibraryTypesDescription": {
+    "defaultMessage": "Works with movies, TV shows, music, and more."
+  },
+  "featuresTorrentClientSupport": {
+    "defaultMessage": "Torrent Client Support"
+  },
+  "featuresTorrentClientSupportDescription": {
+    "defaultMessage": "Download management for qBittorrent, Deluge, and Transmission."
+  },
+  "footerDescription": {
+    "defaultMessage": "Open-source media management and streaming platform for your Plex and *arr ecosystem."
+  },
+  "fullDocumentation": {
+    "defaultMessage": "Full Documentation"
+  },
+  "getStarted": {
+    "defaultMessage": "Get Started"
+  },
+  "gettingStarted": {
+    "defaultMessage": "Getting Started"
+  },
+  "github": {
+    "defaultMessage": "GitHub"
+  },
+  "githubStars": {
+    "defaultMessage": "GitHub Stars"
+  },
+  "granularUserPermissions": {
+    "defaultMessage": "Granular User Permissions"
+  },
+  "granularUserPermissionsDescription": {
+    "defaultMessage": "Control access for different users and roles with fine-grained permissions."
+  },
+  "installAppAnswer": {
+    "defaultMessage": "Streamarr supports PWA installation. On Chrome/Edge, use the install icon in the address bar. On Android/iOS, use the browser menu to add to home screen. PWA features require HTTPS."
+  },
+  "installAppQuestion": {
+    "defaultMessage": "How do I install Streamarr as a mobile or desktop app?"
+  },
+  "installationGuide": {
+    "defaultMessage": "Installation Guide"
+  },
+  "integratedPlexUserManagement": {
+    "defaultMessage": "Integrated Plex user management and library access controls"
+  },
+  "integrations": {
+    "defaultMessage": "Integrations"
+  },
+  "integrationsDescription": {
+    "defaultMessage": "Streamarr integrates seamlessly with a variety of popular services to enhance your media management experience."
+  },
+  "inviteOnlyAccess": {
+    "defaultMessage": "Invite-Only Access"
+  },
+  "inviteOnlyAccessDescription": {
+    "defaultMessage": "Control who can join your Streamarr instance with a secure, flexible invite system."
+  },
+  "letsGetStarted": {
+    "defaultMessage": "Let's Get Started"
+  },
+  "libraryAccessControls": {
+    "defaultMessage": "Library Access Controls"
+  },
+  "libraryAccessControlsDescription": {
+    "defaultMessage": "Grant or restrict access to specific Plex libraries for each user."
+  },
+  "manageInvitesAnswer": {
+    "defaultMessage": "Admins can set default invite quotas and override them per user. Users with Manage Users or Manage Invites permissions are exempt from quotas."
+  },
+  "manageInvitesQuestion": {
+    "defaultMessage": "How do I manage or limit the number of invites users can create?"
+  },
+  "modernResponsiveWebInterface": {
+    "defaultMessage": "Modern Responsive Web Interface"
+  },
+  "modernResponsiveWebInterfaceDescription": {
+    "defaultMessage": "Enjoy a fast, mobile-friendly UI."
+  },
+  "notificationsIssueAnswer": {
+    "defaultMessage": "Check that notification agents (Email, Web Push, In-App) are enabled and configured. Users must enable notification types in their preferences. For email, ensure a valid address is set; for push, verify subscription."
+  },
+  "notificationsIssueQuestion": {
+    "defaultMessage": "Why are notifications not being sent or received?"
+  },
+  "onboardNewUsersAnswer": {
+    "defaultMessage": "Use the invite system to generate codes with custom permissions, library access, usage limits, and expiration. Invited users can be added to your Plex server and Streamarr with the exact access you configure."
+  },
+  "onboardNewUsersQuestion": {
+    "defaultMessage": "How do I onboard new users with specific permissions?"
+  },
+  "openSourceCommunityDriven": {
+    "defaultMessage": "Open Source & Community Driven"
+  },
+  "openSourceCommunityDrivenDescription": {
+    "defaultMessage": "Streamarr is fully open-source, enabling community contributions, customization, and transparency."
+  },
+  "playlistSupport": {
+    "defaultMessage": "Playlist Support"
+  },
+  "playlistSupportDescription": {
+    "defaultMessage": "Create and manage playlists for Plex libraries."
+  },
+  "readLatestReleaseNotes": {
+    "defaultMessage": "Read the latest release notes"
+  },
+  "readyToGetStarted": {
+    "defaultMessage": "Ready to get started?"
+  },
+  "releases": {
+    "defaultMessage": "Releases"
+  },
+  "resetOnboardingAnswer": {
+    "defaultMessage": "Yes. Users can reset onboarding in their account settings. Admins can reset onboarding for any user from the user management panel."
+  },
+  "resetOnboardingQuestion": {
+    "defaultMessage": "Can I reset onboarding or tutorials for myself or other users?"
+  },
+  "streamarrDescription": {
+    "defaultMessage": "Streamarr is an open-source media management and streaming platform that integrates with your Plex server and *arr services."
+  },
+  "streamarrEasyToSetUp": {
+    "defaultMessage": "Streamarr is easy to set up and use, with comprehensive documentation to guide you."
+  },
+  "streamingAndManagingYourServices": {
+    "defaultMessage": "Streaming and managing your services has never been easier"
+  },
+  "streamingAndManagingYourServicesDescription": {
+    "defaultMessage": "With Streamarr, you can effortlessly control your media ecosystem and enjoy your content without any hassle."
+  },
+  "streamingAndManagingYourServicesSubtitle": {
+    "defaultMessage": "Streamarr offers a comprehensive set of features that allow you to easily manage your media library, stream content, and integrate with your Plex and *arr services."
+  },
+  "supportsMostPlexLibraryTypes": {
+    "defaultMessage": "Supports most Plex library types, including movies, TV shows, and music"
+  },
+  "unifiedDashboard": {
+    "defaultMessage": "Unified Dashboard"
+  },
+  "unifiedDashboardDescription": {
+    "defaultMessage": "Manage Plex and *arr services from a single, modern interface."
+  },
+  "unifiedStreamingExperience": {
+    "defaultMessage": "Unified Streaming Experience"
+  },
+  "unifiedStreamingExperienceDescription": {
+    "defaultMessage": "Streamarr provides a seamless, unified interface to manage and stream your media by integrating with your Plex server and *arr services."
+  },
+  "userNotAppearingAnswer": {
+    "defaultMessage": "Ensure the internal Python Plex Sync service is running. Check application logs for errors related to Plex invite operations."
+  },
+  "userNotAppearingQuestion": {
+    "defaultMessage": "What should I do if a user is not appearing on my Plex server after redeeming an invite?"
+  },
+  "whatIs": {
+    "defaultMessage": "What is"
+  },
+  "whatsNew": {
+    "defaultMessage": "What's New"
+  },
+  "worksWithManyPopularServices": {
+    "defaultMessage": "Works with many popular services"
+  }
+}

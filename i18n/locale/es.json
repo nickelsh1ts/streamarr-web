@@ -1,0 +1,266 @@
+{
+  "+moreSoon": {
+    "defaultMessage": "+ más pronto"
+  },
+  "activelyDeveloped": {
+    "defaultMessage": "Desarrollado activamente"
+  },
+  "activelyDevelopedDescription": {
+    "defaultMessage": "Streamarr está en desarrollo activo, con actualizaciones frecuentes y nuevas funciones basadas en los comentarios de los usuarios."
+  },
+  "activelyEvolving": {
+    "defaultMessage": "Evolucionando activamente para la mejor experiencia"
+  },
+  "activelyEvolvingDescription": {
+    "defaultMessage": "Streamarr se desarrolla y mantiene activamente, con actualizaciones regulares y nuevas funciones añadidas todo el tiempo. Consulta las notas de la última versión para ver qué hay de nuevo."
+  },
+  "addedPlaylistSupport": {
+    "defaultMessage": "Soporte de listas de reproducción añadido para bibliotecas Plex"
+  },
+  "apiDocs": {
+    "defaultMessage": "Documentación API"
+  },
+  "arrServiceIntegrations": {
+    "defaultMessage": "Integraciones de servicios *arr para el control completo de tu ecosistema multimedia"
+  },
+  "displayLanguage": {
+    "defaultMessage": "Idioma de visualización"
+  },
+  "comprehensiveMediaControl": {
+    "defaultMessage": "Control multimedia integral"
+  },
+  "comprehensiveMediaControlDescription": {
+    "defaultMessage": "Administra toda tu biblioteca multimedia, descargas y acceso de usuarios desde un solo lugar con potentes herramientas e integraciones."
+  },
+  "contributing": {
+    "defaultMessage": "Contribuyendo"
+  },
+  "customizableOnboarding": {
+    "defaultMessage": "Onboarding personalizable"
+  },
+  "customizableOnboardingDescription": {
+    "defaultMessage": "Asistente de incorporación de usuarios y tutoriales para una configuración sencilla."
+  },
+  "customizableUserOnboarding": {
+    "defaultMessage": "Asistente de incorporación de usuarios personalizable y tutoriales"
+  },
+  "discussions": {
+    "defaultMessage": "Discusiones"
+  },
+  "dockerPulls": {
+    "defaultMessage": "Descargas de Docker"
+  },
+  "documentation": {
+    "defaultMessage": "Documentación"
+  },
+  "downloadManagement": {
+    "defaultMessage": "Gestión de descargas para qBittorrent, Deluge y Transmission"
+  },
+  "everythingYouNeedInOnePlace": {
+    "defaultMessage": "Todo lo que necesitas en un solo lugar"
+  },
+  "everythingYouNeedInOnePlaceDescription": {
+    "defaultMessage": "No más alternar entre diferentes aplicaciones e interfaces. Streamarr lo reúne todo para una experiencia de gestión multimedia sin fisuras."
+  },
+  "everythingYouNeedInOnePlaceSubtitle": {
+    "defaultMessage": "Streamarr proporciona una interfaz unificada para gestionar tu biblioteca multimedia, transmitir contenido e integrar tus servicios Plex y *arr, todo en un solo lugar."
+  },
+  "exploreFeatures": {
+    "defaultMessage": "Explora las potentes funciones que hacen de Streamarr la solución definitiva para la gestión multimedia:"
+  },
+  "extensiveInviteSystem": {
+    "defaultMessage": "Sistema de invitaciones extenso con permisos y niveles de acceso personalizables"
+  },
+  "faqs": {
+    "defaultMessage": "Preguntas frecuentes"
+  },
+  "featureRichControl": {
+    "defaultMessage": "Control rico en funciones"
+  },
+  "features": {
+    "defaultMessage": "Características"
+  },
+  "featuresArrServiceIntegrations": {
+    "defaultMessage": "Integraciones de servicios *arr"
+  },
+  "featuresArrServiceIntegrationsDescription": {
+    "defaultMessage": "Se integra con Radarr, Sonarr, Lidarr, Seerr, Prowlarr, Bazarr, Tdarr y Tautulli."
+  },
+  "featuresExtensiveInviteSystem": {
+    "defaultMessage": "Sistema de invitaciones extenso"
+  },
+  "featuresExtensiveInviteSystemDescription": {
+    "defaultMessage": "Invita usuarios con permisos y niveles de acceso personalizables."
+  },
+  "featuresIntegratedPlexUserManagement": {
+    "defaultMessage": "Gestión integrada de usuarios Plex"
+  },
+  "featuresIntegratedPlexUserManagementDescription": {
+    "defaultMessage": "Gestiona usuarios de Plex y acceso a bibliotecas directamente desde Streamarr."
+  },
+  "featuresMostPlexLibraryTypes": {
+    "defaultMessage": "Soporta la mayoría de tipos de bibliotecas Plex"
+  },
+  "featuresMostPlexLibraryTypesDescription": {
+    "defaultMessage": "Funciona con películas, series, música y más."
+  },
+  "featuresTorrentClientSupport": {
+    "defaultMessage": "Soporte para clientes Torrent"
+  },
+  "featuresTorrentClientSupportDescription": {
+    "defaultMessage": "Gestión de descargas para qBittorrent, Deluge y Transmission."
+  },
+  "footerDescription": {
+    "defaultMessage": "Plataforma de gestión y streaming multimedia de código abierto para tu ecosistema Plex y *arr."
+  },
+  "fullDocumentation": {
+    "defaultMessage": "Documentación completa"
+  },
+  "getStarted": {
+    "defaultMessage": "Comenzar"
+  },
+  "gettingStarted": {
+    "defaultMessage": "Primeros pasos"
+  },
+  "github": {
+    "defaultMessage": "GitHub"
+  },
+  "githubStars": {
+    "defaultMessage": "Estrellas de GitHub"
+  },
+  "granularUserPermissions": {
+    "defaultMessage": "Permisos de usuario granulares"
+  },
+  "granularUserPermissionsDescription": {
+    "defaultMessage": "Controla el acceso de diferentes usuarios y roles con permisos detallados."
+  },
+  "installAppAnswer": {
+    "defaultMessage": "Streamarr soporta instalación PWA. En Chrome/Edge, usa el icono de instalación en la barra de direcciones. En Android/iOS, usa el menú del navegador para añadir a la pantalla de inicio. Las funciones PWA requieren HTTPS."
+  },
+  "installAppQuestion": {
+    "defaultMessage": "¿Cómo instalo Streamarr como aplicación móvil o de escritorio?"
+  },
+  "installationGuide": {
+    "defaultMessage": "Guía de instalación"
+  },
+  "integratedPlexUserManagement": {
+    "defaultMessage": "Gestión integrada de usuarios Plex y controles de acceso a bibliotecas"
+  },
+  "integrations": {
+    "defaultMessage": "Integraciones"
+  },
+  "integrationsDescription": {
+    "defaultMessage": "Streamarr se integra perfectamente con una variedad de servicios populares para mejorar tu experiencia de gestión multimedia."
+  },
+  "inviteOnlyAccess": {
+    "defaultMessage": "Acceso solo por invitación"
+  },
+  "inviteOnlyAccessDescription": {
+    "defaultMessage": "Controla quién puede unirse a tu instancia de Streamarr con un sistema de invitaciones seguro y flexible."
+  },
+  "letsGetStarted": {
+    "defaultMessage": "¡Empecemos!"
+  },
+  "libraryAccessControls": {
+    "defaultMessage": "Controles de acceso a bibliotecas"
+  },
+  "libraryAccessControlsDescription": {
+    "defaultMessage": "Concede o restringe el acceso a bibliotecas Plex específicas para cada usuario."
+  },
+  "manageInvitesAnswer": {
+    "defaultMessage": "Los administradores pueden establecer cuotas de invitación predeterminadas y anularlas por usuario. Los usuarios con permisos de Gestionar Usuarios o Gestionar Invitaciones están exentos de cuotas."
+  },
+  "manageInvitesQuestion": {
+    "defaultMessage": "¿Cómo gestiono o limito el número de invitaciones que los usuarios pueden crear?"
+  },
+  "modernResponsiveWebInterface": {
+    "defaultMessage": "Interfaz web moderna y adaptable"
+  },
+  "modernResponsiveWebInterfaceDescription": {
+    "defaultMessage": "Disfruta de una interfaz rápida y amigable para móviles."
+  },
+  "notificationsIssueAnswer": {
+    "defaultMessage": "Verifica que los agentes de notificación (Correo, Web Push, In-App) estén habilitados y configurados. Los usuarios deben habilitar los tipos de notificación en sus preferencias. Para correo, asegúrate de que la dirección sea válida; para push, verifica la suscripción."
+  },
+  "notificationsIssueQuestion": {
+    "defaultMessage": "¿Por qué no se envían o reciben notificaciones?"
+  },
+  "onboardNewUsersAnswer": {
+    "defaultMessage": "Utiliza el sistema de invitaciones para generar códigos con permisos personalizados, acceso a bibliotecas, límites de uso y expiración. Los usuarios invitados pueden añadirse a tu servidor Plex y Streamarr con el acceso exacto que configures."
+  },
+  "onboardNewUsersQuestion": {
+    "defaultMessage": "¿Cómo incorporo nuevos usuarios con permisos específicos?"
+  },
+  "openSourceCommunityDriven": {
+    "defaultMessage": "Código abierto y dirigido por la comunidad"
+  },
+  "openSourceCommunityDrivenDescription": {
+    "defaultMessage": "Streamarr es completamente de código abierto, permitiendo contribuciones de la comunidad, personalización y transparencia."
+  },
+  "playlistSupport": {
+    "defaultMessage": "Soporte de listas de reproducción"
+  },
+  "playlistSupportDescription": {
+    "defaultMessage": "Crea y gestiona listas de reproducción para bibliotecas Plex."
+  },
+  "readLatestReleaseNotes": {
+    "defaultMessage": "Lee las notas de la última versión"
+  },
+  "readyToGetStarted": {
+    "defaultMessage": "¿Listo para comenzar?"
+  },
+  "releases": {
+    "defaultMessage": "Lanzamientos"
+  },
+  "resetOnboardingAnswer": {
+    "defaultMessage": "Sí. Los usuarios pueden restablecer la incorporación en la configuración de su cuenta. Los administradores pueden restablecer la incorporación para cualquier usuario desde el panel de gestión de usuarios."
+  },
+  "resetOnboardingQuestion": {
+    "defaultMessage": "¿Puedo restablecer la incorporación o los tutoriales para mí u otros usuarios?"
+  },
+  "streamarrDescription": {
+    "defaultMessage": "Streamarr es una plataforma de gestión y streaming multimedia de código abierto que se integra con tu servidor Plex y servicios *arr."
+  },
+  "streamarrEasyToSetUp": {
+    "defaultMessage": "Streamarr es fácil de configurar y usar, con documentación completa para guiarte."
+  },
+  "streamingAndManagingYourServices": {
+    "defaultMessage": "Transmitir y gestionar tus servicios nunca ha sido tan fácil"
+  },
+  "streamingAndManagingYourServicesDescription": {
+    "defaultMessage": "Con Streamarr, puedes controlar tu ecosistema multimedia sin esfuerzo y disfrutar de tu contenido sin complicaciones."
+  },
+  "streamingAndManagingYourServicesSubtitle": {
+    "defaultMessage": "Streamarr ofrece un conjunto completo de funciones que te permiten gestionar fácilmente tu biblioteca multimedia, transmitir contenido e integrar tus servicios Plex y *arr."
+  },
+  "supportsMostPlexLibraryTypes": {
+    "defaultMessage": "Soporta la mayoría de tipos de bibliotecas Plex, incluyendo películas, series y música"
+  },
+  "unifiedDashboard": {
+    "defaultMessage": "Panel unificado"
+  },
+  "unifiedDashboardDescription": {
+    "defaultMessage": "Gestiona Plex y servicios *arr desde una sola interfaz moderna."
+  },
+  "unifiedStreamingExperience": {
+    "defaultMessage": "Experiencia de streaming unificada"
+  },
+  "unifiedStreamingExperienceDescription": {
+    "defaultMessage": "Streamarr proporciona una interfaz unificada y sin fisuras para gestionar y transmitir tu contenido multimedia integrándose con tu servidor Plex y servicios *arr."
+  },
+  "userNotAppearingAnswer": {
+    "defaultMessage": "Asegúrate de que el servicio interno Python Plex Sync esté en funcionamiento. Revisa los registros de la aplicación para errores relacionados con las operaciones de invitación de Plex."
+  },
+  "userNotAppearingQuestion": {
+    "defaultMessage": "¿Qué hago si un usuario no aparece en mi servidor Plex después de canjear una invitación?"
+  },
+  "whatIs": {
+    "defaultMessage": "¿Qué es"
+  },
+  "whatsNew": {
+    "defaultMessage": "¿Qué hay de nuevo?"
+  },
+  "worksWithManyPopularServices": {
+    "defaultMessage": "Funciona con muchos servicios populares"
+  }
+}
