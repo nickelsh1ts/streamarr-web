@@ -65,13 +65,13 @@ export default function Header() {
       <nav className="flex items-center justify-between">
         <div className="flex items-center">
           <a href="#" className="flex items-center gap-3 group">
-              <Image
-                src="/logo_full.png"
-                width={40}
-                height={40}
-                alt="Streamarr Logo"
-                unoptimized
-              />
+            <Image
+              src="/logo_full.png"
+              width={200}
+              height={20}
+              alt="Streamarr Logo"
+              unoptimized
+            />
           </a>
         </div>
         <div className="hidden md:flex flex-col md:flex-row md:items-center gap-2 md:gap-1">
@@ -95,13 +95,13 @@ export default function Header() {
           <div className="overflow-hidden bg-base-300/80 backdrop-blur-xl rounded-2xl shadow-2xl ring-1 ring-primary/50 transition-all duration-500 max-h-screen data-closed:max-h-0">
             <div className="flex items-center justify-between px-5 pt-4 pb-3 border-b border-primary/50">
               <a href="#" className="flex items-center gap-3">
-                  <Image
-                    src="/logo_full.png"
-                    width={40}
-                    height={40}
-                    alt="Streamarr Logo"
-                    unoptimized
-                  />
+                <Image
+                  src="/logo_full.png"
+                  width={40}
+                  height={40}
+                  alt="Streamarr Logo"
+                  unoptimized
+                />
               </a>
               <button
                 onClick={() => setIsOpen(false)}
