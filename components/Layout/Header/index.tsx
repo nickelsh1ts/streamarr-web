@@ -70,6 +70,7 @@ export default function Header() {
               width={200}
               height={20}
               alt="Streamarr Logo"
+              className="transition-transform group-hover:scale-105"
               unoptimized
             />
           </a>
