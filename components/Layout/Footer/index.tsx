@@ -60,6 +60,7 @@ export default function Footer() {
                 width={36}
                 height={36}
                 alt="Streamarr Logo"
+                unoptimized
               />
               <span className="text-lg font-bold text-white">Streamarr</span>
             </a>
@@ -96,13 +97,13 @@ export default function Footer() {
                 className="flex gap-1 items-center text-neutral hover:text-primary/70 transition-colors group"
                 aria-label="nickelsh1ts.com"
               >
-                <Image
-                  src="/icon/logo_nickelsh1ts.png"
-                  width={20}
-                  height={20}
-                  alt="nickelsh1ts.com Logo"
-                  className="transition-transform group-hover:scale-125"
-                />
+                  <Image
+                    src="/icon/logo_nickelsh1ts.png"
+                    width={32}
+                    height={32}
+                    alt="Nickelsh1ts Logo"
+                    unoptimized
+                  />
                 nickelsh1ts
               </a>
             </div>

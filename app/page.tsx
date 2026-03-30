@@ -602,6 +602,7 @@ export default function Home() {
               src="/screenshot/preview_dashboard.png"
               className="w-full h-auto object-cover"
               sizes="(max-width: 768px) 100vw, 1280px"
+              unoptimized
             />
           </div>
         </div>
@@ -691,6 +692,7 @@ export default function Home() {
                     src="/screenshot/whats_new.png"
                     className="w-full h-auto object-cover"
                     sizes="(max-width: 768px) 100vw, 1280px"
+                    unoptimized
                   />
                 </div>
               </div>
@@ -713,6 +715,7 @@ export default function Home() {
                         src={item.photo}
                         className="w-full h-auto object-cover"
                         sizes="(max-width: 768px) 100vw, 1280px"
+                        unoptimized
                       />
                     </div>
                   </div>
@@ -775,6 +778,7 @@ export default function Home() {
                     width={32}
                     height={32}
                     className="w-8 h-8 object-contain"
+                    unoptimized
                   />
                 </span>
                 <span className="text-white">{integration.label}</span>
@@ -902,6 +906,7 @@ export default function Home() {
                       className="w-full h-full object-contain"
                       src={'/screenshot/preview_dashboard.png'}
                       sizes="(max-width: 1024px) 100vw, 50vw"
+                      unoptimized
                     />
                   </div>
                 </div>

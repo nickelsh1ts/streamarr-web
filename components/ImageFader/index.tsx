@@ -48,6 +48,7 @@ const ImageFader: ForwardRefRenderFunction<HTMLDivElement, ImageFaderProps> = (
             src={imageUrl}
             fill
             sizes="100vw"
+            unoptimized
           />
           <div
             className={`absolute inset-0`}
