@@ -97,8 +97,8 @@ export default function Header() {
               <a href="#" className="flex items-center gap-3">
                 <Image
                   src="/logo_full.png"
-                  width={40}
-                  height={40}
+                  width={200}
+                  height={20}
                   alt="Streamarr Logo"
                   unoptimized
                 />
