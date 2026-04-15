@@ -22,7 +22,7 @@ const LanguagePicker = () => {
   return (
     <div className="relative z-10">
       <button
-        className={`rounded-lg p-2 hover:bg-primary/70 hover:text-white ${
+        className={`rounded-lg p-2 hover:cursor-pointer hover:bg-primary/70 hover:text-white ${
           isDropdownOpen
             ? 'bg-primary/60 text-primary-content'
             : 'text-primary-content'

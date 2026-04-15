@@ -16,6 +16,9 @@ import {
   HeartIcon,
   PlusIcon,
 } from '@heroicons/react/24/solid';
+import VersionBadge from '@components/VersionBadge';
+import HeroStats from '@components/HeroStats';
+import { ProjectStatsProvider } from '@context/ProjectStatsContext';
 import {
   AcademicCapIcon,
   AdjustmentsHorizontalIcon,
@@ -35,17 +38,6 @@ import {
   WrenchScrewdriverIcon,
 } from '@node_modules/@heroicons/react/24/outline';
 import { FormattedMessage } from '@node_modules/react-intl';
-
-const stats = [
-  {
-    label: <FormattedMessage id="dockerPulls" defaultMessage="Docker Pulls" />,
-    value: '5.4K+',
-  },
-  {
-    label: <FormattedMessage id="githubStars" defaultMessage="GitHub Stars" />,
-    value: '58+',
-  },
-];
 
 const whatIsItems = [
   {
@@ -537,62 +529,44 @@ export default function Home() {
         id="hero"
         className="flex flex-col items-center justify-center max-w-7xl mx-auto mt-10 px-5"
       >
-        <div className="my-6 flex flex-col sm:flex-row gap-4">
-          <a
-            href="https://github.com/nickelsh1ts/streamarr/releases/tag/v1.4.0"
-            className="group inline-flex items-center gap-2 px-4 py-2 rounded-full bg-primary/30 border border-primary/80 text-primary-content/60 hover:text-primary-content/80 text-sm font-medium hover:bg-primary/20 hover:border-primary/30 transition-colors"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            v1.4.0 <span>-</span> Beta
-            <ChevronRightIcon className="w-5 h-5 ml-1 -mr-1 opacity-60 -translate-x-1 group-hover:opacity-100 group-hover:translate-x-0 transition-all" />
-          </a>
-        </div>
-        <h1 className="text-4xl font-extrabold tracking-tight text-center text-gray-100 sm:text-5xl md:text-6xl lg:text-7xl">
-          <span className="block leading-tight text-balance">
-            <FormattedMessage
-              id="unifiedStreamingExperience"
-              defaultMessage="Unified Streaming Experience"
-            />
-          </span>
-          <span className="block leading-tight text-primary">
-            <FormattedMessage
-              id="featureRichControl"
-              defaultMessage="Feature Rich Control"
-            />
-          </span>
-        </h1>
-        <p className="my-6 text-lg text-center text-neutral sm:text-xl max-w-3xl mx-auto text-balance">
-          <FormattedMessage
-            id="streamarrDescription"
-            defaultMessage="Streamarr is an open-source media management and streaming platform that integrates with your Plex server and *arr services."
-          />
-        </p>
-        <div className="flex flex-col sm:flex-row gap-6 items-center mt-2">
-          <a
-            href="https://docs.streamarr.dev/getting-started"
-            target="_blank"
-            className="inline-flex items-center gap-2 px-6 py-2 rounded-lg bg-accent border border-accent text-warning-content text-lg font-medium hover:bg-accent/60 transition-colors"
-          >
-            <FormattedMessage
-              id="letsGetStarted"
-              defaultMessage="Let's Get Started"
-            />
-          </a>
-          <div className="flex gap-6 item-center justify-center">
-            {stats.map((stat, idx) => (
-              <p
-                key={idx}
-                className="text-2xl font-extrabold py-2 text-center items-center h-full"
-              >
-                {stat.value}
-                <span className="block font-medium text-sm text-neutral">
-                  {stat.label}
-                </span>
-              </p>
-            ))}
+        <ProjectStatsProvider>
+          <div className="my-6 flex flex-col sm:flex-row gap-4">
+            <VersionBadge />
           </div>
-        </div>
+          <h1 className="text-4xl font-extrabold tracking-tight text-center text-gray-100 sm:text-5xl md:text-6xl lg:text-7xl">
+            <span className="block leading-tight text-balance">
+              <FormattedMessage
+                id="unifiedStreamingExperience"
+                defaultMessage="Unified Streaming Experience"
+              />
+            </span>
+            <span className="block leading-tight text-primary">
+              <FormattedMessage
+                id="featureRichControl"
+                defaultMessage="Feature Rich Control"
+              />
+            </span>
+          </h1>
+          <p className="my-6 text-lg text-center text-neutral sm:text-xl max-w-3xl mx-auto text-balance">
+            <FormattedMessage
+              id="streamarrDescription"
+              defaultMessage="Streamarr is an open-source media management and streaming platform that integrates with your Plex server and *arr services."
+            />
+          </p>
+          <div className="flex flex-col sm:flex-row gap-6 items-center mt-2">
+            <a
+              href="https://docs.streamarr.dev/getting-started"
+              target="_blank"
+              className="inline-flex items-center gap-2 px-6 py-2 rounded-lg bg-accent border border-accent text-warning-content text-lg font-medium hover:bg-accent/60 transition-colors"
+            >
+              <FormattedMessage
+                id="letsGetStarted"
+                defaultMessage="Let's Get Started"
+              />
+            </a>
+            <HeroStats />
+          </div>
+        </ProjectStatsProvider>
         <div className="mt-12 w-full overflow-hidden bg-base-300/50 backdrop-blur rounded-xl shadow-2xl border border-base-200/50">
           <div className="relative aspect-video bg-linear-to-br from-base-300 to-base-100 flex items-center justify-center">
             <Image
