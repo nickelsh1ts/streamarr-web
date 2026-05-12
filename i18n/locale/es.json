@@ -159,7 +159,7 @@
     "defaultMessage": "Controla quién puede unirse a tu instancia de Streamarr con un sistema de invitaciones seguro y flexible."
   },
   "letsGetStarted": {
-    "defaultMessage": "¡Empecemos!"
+    "defaultMessage": "Empecemos"
   },
   "libraryAccessControls": {
     "defaultMessage": "Controles de acceso a bibliotecas"
@@ -258,7 +258,7 @@
     "defaultMessage": "¿Qué es"
   },
   "whatsNew": {
-    "defaultMessage": "¿Qué hay de nuevo?"
+    "defaultMessage": "Qué hay de nuevo"
   },
   "worksWithManyPopularServices": {
     "defaultMessage": "Funciona con muchos servicios populares"
