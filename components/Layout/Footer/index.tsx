@@ -41,6 +41,10 @@ const footerLinks = {
       ),
       href: 'https://github.com/nickelsh1ts/streamarr/blob/develop/CONTRIBUTING.md',
     },
+    {
+      label: 'Weblate',
+      href: 'https://weblate.streamarr.dev/projects/streamarr/',
+    },
   ],
   integrations: integrations.map((integration) => ({
     label: integration.label,
@@ -97,13 +101,13 @@ export default function Footer() {
                 className="flex gap-1 items-center text-neutral hover:text-primary/70 transition-colors group"
                 aria-label="nickelsh1ts.com"
               >
-                  <Image
-                    src="/icon/logo_nickelsh1ts.png"
-                    width={32}
-                    height={32}
-                    alt="Nickelsh1ts Logo"
-                    unoptimized
-                  />
+                <Image
+                  src="/icon/logo_nickelsh1ts.png"
+                  width={32}
+                  height={32}
+                  alt="Nickelsh1ts Logo"
+                  unoptimized
+                />
                 nickelsh1ts
               </a>
             </div>

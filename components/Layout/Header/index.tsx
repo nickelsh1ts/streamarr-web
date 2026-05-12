@@ -19,6 +19,10 @@ const quickLinks = [
     href: 'https://api-docs.streamarr.dev',
   },
   {
+    label: 'Weblate',
+    href: 'https://weblate.streamarr.dev/projects/streamarr/',
+  },
+  {
     label: <FormattedMessage id="github" defaultMessage="GitHub" />,
     href: 'https://github.com/nickelsh1ts/streamarr',
   },
@@ -75,15 +79,15 @@ export default function Header() {
             />
           </a>
         </div>
-        <div className="hidden md:flex flex-col md:flex-row md:items-center gap-2 md:gap-1">
+        <div className="hidden lg:flex flex-col md:flex-row md:items-center gap-2 md:gap-1">
           <LanguagePicker />
           <MenuLinks />
         </div>
-        <div className="md:hidden flex gap-2 items-center">
+        <div className="lg:hidden flex gap-2 items-center">
           <LanguagePicker />
           <button
             type="button"
-            className="inline-flex items-center justify-center p-2 text-gray-400 bg-base-200/60 backdrop-blur rounded-lg hover:text-white hover:bg-neutral/30 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary transition-all"
+            className="inline-flex items-center justify-center p-2 text-gray-400 bg-base-200/60 backdrop-blur rounded-lg hover:text-white hover:bg-neutral/30 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary transition-all hover:cursor-pointer"
             onClick={() => setIsOpen(true)}
             aria-label="Open main menu"
           >
@@ -91,7 +95,7 @@ export default function Header() {
           </button>
         </div>
       </nav>
-      <div ref={ref} className="absolute inset-x-0 top-0 z-50 p-4 md:hidden">
+      <div ref={ref} className="absolute inset-x-0 top-0 z-50 p-4 lg:hidden">
         <Transition show={isOpen}>
           <div className="overflow-hidden bg-base-300/80 backdrop-blur-xl rounded-2xl shadow-2xl ring-1 ring-primary/50 transition-all duration-500 max-h-screen data-closed:max-h-0">
             <div className="flex items-center justify-between px-5 pt-4 pb-3 border-b border-primary/50">
@@ -107,7 +111,7 @@ export default function Header() {
               <button
                 onClick={() => setIsOpen(false)}
                 type="button"
-                className="inline-flex items-center justify-center p-2 text-neutral rounded-lg hover:text-white hover:bg-neutral/30 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary transition-all"
+                className="inline-flex items-center justify-center p-2 text-neutral rounded-lg hover:text-white hover:bg-neutral/30 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-primary transition-all hover:cursor-pointer"
                 aria-label="Close main menu"
               >
                 <XMarkIcon className="w-6 h-6" />
