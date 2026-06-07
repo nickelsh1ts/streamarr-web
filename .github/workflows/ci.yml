@@ -1,0 +1,39 @@
+---
+# yaml-language-server: $schema=https://json.schemastore.org/github-workflow.json
+name: streamarr-web CI
+
+on:
+  pull_request:
+    branches:
+      - '*'
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  test:
+    name: Test Build
+    if: github.event_name == 'pull_request'
+    runs-on: ubuntu-latest
+    container: node:26-alpine@sha256:144769ec3f32e8ee36b3cfde91e82bee25d9367b20f31a151f3f7eea3a2a8541
+    steps:
+      - name: Checkout
+        uses: actions/checkout@df4cb1c069e1874edd31b4311f1884172cec0e10 # v6
+        with:
+          persist-credentials: false
+      - name: Install and Enable Corepack
+        run: npm install -g corepack --force && corepack enable
+      - name: Install dependencies
+        env:
+          CYPRESS_INSTALL_BINARY: '0'
+        run: pnpm install --frozen-lockfile
+      - name: Build
+        run: pnpm build
