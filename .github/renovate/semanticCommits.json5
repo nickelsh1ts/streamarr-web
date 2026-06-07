@@ -22,19 +22,5 @@
       semanticCommitType: 'ci',
       semanticCommitScope: 'actions',
     },
-
-    // Docker
-    {
-      matchManagers: ['dockerfile', 'docker-compose'],
-      semanticCommitType: 'build',
-      semanticCommitScope: 'docker',
-    },
-
-    // Python pip requirements
-    {
-      matchManagers: ['pip_requirements'],
-      semanticCommitType: 'build',
-      semanticCommitScope: 'python',
-    },
   ],
 }

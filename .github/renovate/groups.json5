@@ -45,12 +45,6 @@
       ],
     },
 
-    // Cypress and its companion plugins
-    {
-      groupName: 'Cypress',
-      matchPackageNames: ['cypress', 'cy-mobile-commands'],
-    },
-
     // FormatJS / i18n
     {
       groupName: 'FormatJS',

@@ -62,7 +62,7 @@
   ],
   packageRules: [
     {
-      matchDepTypes: ["devDependencies"],
+      matchManagers: ["npm"],
       matchUpdateTypes: ["minor", "patch"],
       automerge: true,
     },
