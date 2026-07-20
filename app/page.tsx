@@ -7,6 +7,7 @@ import Prowlarr from '@components/Assets/Services/prowlarr.svg';
 import Bazarr from '@components/Assets/Services/bazarr.svg';
 import Tdarr from '@components/Assets/Services/tdarr.png';
 import Tautulli from '@components/Assets/Services/tautulli.svg';
+import Cleanuparr from '@components/Assets/Services/cleanuparr.svg';
 import qBittorrent from '@components/Assets/Services/qBittorrent.svg';
 import Deluge from '@components/Assets/Services/deluge.svg';
 import Transmission from '@components/Assets/Services/transmission.png';
@@ -234,6 +235,11 @@ export const integrations = [
     label: 'Tautulli',
     icon: Tautulli,
     href: 'https://tautulli.com/',
+  },
+  {
+    label: 'Cleanuparr',
+    icon: Cleanuparr,
+    href: 'https://cleanuparr.github.io/',
   },
   {
     label: 'qBittorrent',
