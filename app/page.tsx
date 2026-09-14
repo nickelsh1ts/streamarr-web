@@ -9,6 +9,9 @@ import Tdarr from '@components/Assets/Services/tdarr.png';
 import Tautulli from '@components/Assets/Services/tautulli.svg';
 import Cleanuparr from '@components/Assets/Services/cleanuparr.svg';
 import Audiobookshelf from '@components/Assets/Services/audiobookshelf.svg';
+import Chaptarr from '@components/Assets/Services/chaptarr.svg';
+import Shelfmark from '@components/Assets/Services/shelfmark.png';
+import CalibreWeb from '@components/Assets/Services/calibreweb.svg';
 import qBittorrent from '@components/Assets/Services/qBittorrent.svg';
 import Deluge from '@components/Assets/Services/deluge.svg';
 import Transmission from '@components/Assets/Services/transmission.png';
@@ -228,6 +231,11 @@ export const integrations = [
     href: 'https://bazarr.media/',
   },
   {
+    label: 'Chaptarr',
+    icon: Chaptarr,
+    href: 'https://github.com/Chaptarr/chaptarr',
+  },
+  {
     label: 'Tdarr',
     icon: Tdarr,
     href: 'https://tdarr.io/',
@@ -243,9 +251,19 @@ export const integrations = [
     href: 'https://cleanuparr.github.io/',
   },
   {
+    label: 'Calibre-Web',
+    icon: CalibreWeb,
+    href: 'https://github.com/janeczku/calibre-web',
+  },
+  {
     label: 'Audiobookshelf',
     icon: Audiobookshelf,
     href: 'https://audiobookshelf.org/',
+  },
+  {
+    label: 'Shelfmark',
+    icon: Shelfmark,
+    href: 'https://github.com/calibrain/shelfmark',
   },
   {
     label: 'qBittorrent',

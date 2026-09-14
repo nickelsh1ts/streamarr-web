@@ -23,9 +23,6 @@
   "arrServiceIntegrations": {
     "defaultMessage": "*arr service integrations for complete control of your media ecosystem"
   },
-  "displayLanguage": {
-    "defaultMessage": "Display Language"
-  },
   "comprehensiveMediaControl": {
     "defaultMessage": "Comprehensive Media Control"
   },
@@ -46,6 +43,9 @@
   },
   "discussions": {
     "defaultMessage": "Discussions"
+  },
+  "displayLanguage": {
+    "defaultMessage": "Display Language"
   },
   "dockerPulls": {
     "defaultMessage": "Docker Pulls"
