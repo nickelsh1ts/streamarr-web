@@ -25,18 +25,18 @@ interface CachedData {
 }
 
 const FALLBACK: Omit<ProjectStats, 'loading'> = {
-  version: 'v1.4.0',
-  releaseUrl: 'https://github.com/nickelsh1ts/streamarr/releases/tag/v1.4.0',
+  version: 'v1.15.0',
+  releaseUrl: 'https://github.com/nickelsh1ts/streamarr/releases/tag/v1.15.0',
   isBeta: true,
-  stars: '57+',
-  dockerPulls: '5.3K+',
+  stars: '69',
+  dockerPulls: '25K+',
 };
 
 function formatCount(n: number): string {
   if (n >= 1_000_000)
     return `${(n / 1_000_000).toFixed(1).replace(/\.0$/, '')}M+`;
   if (n >= 1_000) return `${(n / 1_000).toFixed(1).replace(/\.0$/, '')}K+`;
-  return `${n}+`;
+  return `${n}`;
 }
 
 function readCache(): Omit<ProjectStats, 'loading'> | null {
@@ -96,7 +96,7 @@ function fetchStats(): Promise<Omit<ProjectStats, 'loading'>> {
             ? formatCount(repo.stargazers_count)
             : FALLBACK.stars,
         dockerPulls: docker?.message
-          ? docker.message.toUpperCase()
+          ? docker.message.toUpperCase() + '+'
           : FALLBACK.dockerPulls,
       };
 
