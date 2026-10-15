@@ -1,0 +1,1 @@
+(globalThis.TURBOPACK||(globalThis.TURBOPACK=[])).push(["object"==typeof document?document.currentScript:void 0,72140,t=>{"use strict";t.i(60075),t.S([10833,"FormattedMessage,K"])}]);
