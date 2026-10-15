@@ -483,20 +483,6 @@ const faqs = [
   {
     question: (
       <FormattedMessage
-        id="userNotAppearingQuestion"
-        defaultMessage="What should I do if a user is not appearing on my Plex server after redeeming an invite?"
-      />
-    ),
-    answer: (
-      <FormattedMessage
-        id="userNotAppearingAnswer"
-        defaultMessage="Ensure the internal Python Plex Sync service is running. Check application logs for errors related to Plex invite operations."
-      />
-    ),
-  },
-  {
-    question: (
-      <FormattedMessage
         id="resetOnboardingQuestion"
         defaultMessage="Can I reset onboarding or tutorials for myself or other users?"
       />
